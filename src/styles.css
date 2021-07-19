@@ -1,0 +1,40 @@
+:root {
+  --charcoal: #264653ff;
+  --persian-green: #2a9d8fff;
+  --orange-yellow-crayola: #e9c46aff;
+  --sandy-brown: #f4a261ff;
+  --burnt-sienna: #e76f51ff;
+}
+#root {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: var(--charcoal);
+  color: var(--orange-yellow-crayola);
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 25em;
+  height: 12rem;
+  padding: 0 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: left;
+
+  transition: 450ms;
+  margin: auto;
+}
+.card:hover {
+  transform: scale(1.08);
+}
+
+.dp {
+  position: contain;
+  border-radius: 100%;
+  float: right;
+}
